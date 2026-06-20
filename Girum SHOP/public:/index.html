@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meazi Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>MEAZI ONLINE SHOP</h1>
+
+<div class="product">
+    <h3>Jack Daniel's</h3>
+    <button onclick="addToCart('Jack Daniel', 2850)">Add to cart</button>
+</div>
+
+<div class="product">
+    <h3>Absolut Vodka</h3>
+    <button onclick="addToCart('Vodka', 1650)">Add to cart</button>
+</div>
+
+<hr>
+
+<h2>Cart</h2>
+<div id="cart"></div>
+
+<input id="name" placeholder="Your Name">
+<input id="phone" placeholder="Phone Number">
+
+<button onclick="checkout()">ORDER NOW</button>
+
+<script src="script.js"></script>
+</body>
+</html>
